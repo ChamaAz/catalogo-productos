@@ -11,7 +11,7 @@ Aplicación de frontend desarrollada con **React + Vite + Tailwind CSS** para mo
 - **Tailwind CSS**: Framework de CSS para estilos rápidos y responsive.
 - **Fetch API**: Para obtener los datos de productos desde `https://fakestoreapi.com/products`.
 - **Node.js + Express**: Backend opcional para servir datos.
-- **MongoDB**: Base de datos para almacenar productos (si aplica).
+- **MongoDB**: Base de datos para almacenar productos.
 - **Git**: Control de versiones.
 
 ---
