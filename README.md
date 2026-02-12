@@ -1,7 +1,8 @@
-# React + Vite
-# Catálogo de Productos - Frontend
+# 🛍 Catálogo de Productos - Frontend
 
-Este proyecto es una prueba técnica de frontend para mostrar un catálogo de productos con React, Vite y Tailwind CSS.
+Aplicación de frontend desarrollada con **React + Vite + Tailwind CSS** para mostrar un catálogo de productos con filtros, búsqueda y ordenación por precio. Proyecto de prueba técnica de frontend.
+
+---
 
 ## 🔧 Tecnologías
 
@@ -9,46 +10,51 @@ Este proyecto es una prueba técnica de frontend para mostrar un catálogo de pr
 - **Vite**: Bundler y servidor de desarrollo con HMR rápido.
 - **Tailwind CSS**: Framework de CSS para estilos rápidos y responsive.
 - **Fetch API**: Para obtener los datos de productos desde `https://fakestoreapi.com/products`.
-
-Opcional:
-- Modo oscuro/tema claro
-- Filtros por categoría y búsqueda por nombre
-- Ordenar productos por precio
+- **Node.js + Express**: Backend opcional para servir datos.
+- **MongoDB**: Base de datos para almacenar productos (si aplica).
+- **Git**: Control de versiones.
 
 ---
 
-## 🗂 Estructura del proyecto
+## 🚀 Funcionalidades
 
-catalogo-productos/
-├─ src/
-│ ├─ components/
-│ │ ├─ ProductCard.jsx
-│ │ └─ Filters.jsx
-│ ├─ App.jsx
-│ ├─ main.jsx
-│ └─ index.css
-├─ package.json
-├─ tailwind.config.js
-├─ postcss.config.js
-└─ README.md
+- Mostrar catálogo de productos con imagen, nombre, precio y categoría.
+- Búsqueda por nombre y filtro por categoría.
+- Ordenar productos por precio ascendente o descendente.
+- Modo oscuro / modo claro (opcional).
+- Interfaz responsive para móviles y escritorio.
+
+---
 
 **Descripción de carpetas/archivos principales:**
 
-- `components/ProductCard.jsx`: Componente para mostrar cada producto (imagen, título, precio y categoría).  
-- `components/Filters.jsx`: Componente con buscador, filtro por categoría y orden de precios.  
-- `App.jsx`: Componente principal que controla estado de productos, filtros, orden y modo oscuro.  
-- `main.jsx`: Entrada del proyecto, se encarga de montar React y pasar la clase `dark` a `<html>` para Tailwind.  
-- `index.css`: Importa las directivas de Tailwind (`@tailwind base; @tailwind components; @tailwind utilities;`).  
+- `ProductCard.jsx`: Componente que renderiza cada producto (imagen, título, precio, categoría).  
+- `Filters.jsx`: Componente de búsqueda y filtrado de productos.  
+- `App.jsx`: Componente principal que maneja estado y lógica de filtros, búsqueda y orden.  
+- `main.jsx`: Entrada de React que monta la app y gestiona modo oscuro.  
+- `index.css`: Importa directivas de Tailwind.  
 - `tailwind.config.js` y `postcss.config.js`: Configuración de Tailwind y PostCSS.
 
 ---
-## Tecnologías utilizadas
-- Frontend: React
-- Backend: Node.js + Express
-- Base de datos: MongoDB
-- Control de versiones: Git
+
+## 🏗 Badges y estado del proyecto
+
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+
+---
+
+## ⚙️ CI/CD
+
+Este proyecto puede integrarse con **GitHub Actions** para ejecutar tests automáticamente en cada push o pull request.  
+## 💻 Cómo ejecutar la aplicación
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/ChamaAz/catalogo-productos.git
 
 
 
