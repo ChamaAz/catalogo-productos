@@ -42,5 +42,13 @@ catalogo-productos/
 - `tailwind.config.js` y `postcss.config.js`: Configuración de Tailwind y PostCSS.
 
 ---
+## Tecnologías utilizadas
+- Frontend: React
+- Backend: Node.js + Express
+- Base de datos: MongoDB
+- Control de versiones: Git
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+
 
 
